@@ -13,6 +13,6 @@ public final class TempShelvesFix extends JavaPlugin {
 
     @Override
     public void onDisable() {
-        ConsoleHelper.sendMessage(ChatColor.RED + "empShelvesFix has been disabled!");
+        ConsoleHelper.sendMessage(ChatColor.RED + "TempShelvesFix has been disabled!");
     }
 }
