@@ -66,18 +66,6 @@ public class MainListener implements Listener {
     }
 
     private boolean isShelf(Material material) {
-        return (
-                material == Material.OAK_SHELF ||
-                        material == Material.SPRUCE_SHELF ||
-                        material == Material.BIRCH_SHELF ||
-                        material == Material.JUNGLE_SHELF ||
-                        material == Material.ACACIA_SHELF ||
-                        material == Material.DARK_OAK_SHELF ||
-                        material == Material.MANGROVE_SHELF ||
-                        material == Material.PALE_OAK_SHELF ||
-                        material ==  Material.BAMBOO_SHELF ||
-                        material == Material.CRIMSON_SHELF ||
-                        material == Material.WARPED_SHELF
-        );
+        return material.name().contains("SHELF");
     }
 }

@@ -1,6 +1,6 @@
 name: TempShelvesFix
-version: '1.1-SNAPSHOT'
+version: '1.2-SNAPSHOT'
 main: me.spectral8420.tempShelvesFix.TempShelvesFix
 api-version: '1.21'
 authors: [ ____Spectral)____ ]
-description: A fun minigame for Minecraft!
+description: Just a small fix
